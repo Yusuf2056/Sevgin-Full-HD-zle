@@ -1,2 +1,2 @@
-# Sevgin-Full-HD-zle
+# Sevgin-Full-HD-izle
 thank you
