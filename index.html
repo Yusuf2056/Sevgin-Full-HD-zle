@@ -1,16 +1,24 @@
-<!DOCTYPE html>
-<html lang="tr">
+
+
+
+
+
+
+Şunu dedin:
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SEVGİN - Film Sitesi</title>
+    <title>Film Sitesi</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!-- Navbar -->
+    <!-- Navbar Start -->
     <div class="navbar">
-        <h1 class="logo">SEVGİN</h1>
+        <!-- Navbar içeriği burada -->
+        <h1 class="logo">SEVGİN</h1> <!-- Marka Adı Eklendi -->
         <div class="navbar-wrapper">
             <div class="logo-wrapper">
                 <h1 class="logo"> yu SEVGİN</h1>
@@ -29,7 +37,7 @@
                 </ul>
             </div>
             <div class="profile-text-container">
-                <img src="indir (2).jpg" alt="Profile" class="profile-image">
+                <img src="indir (2).jpg" alt=" 284eb0e6-3232-44ef-a588-760965b9c2a8" class="profile-image">
                 <span class="profile-text">Hesabım</span>
                 <i class="bi bi-caret-down-fill"></i>
                 <div class="toggle">
@@ -40,45 +48,177 @@
             </div>
         </div>
     </div>
+    <!-- Navbar End -->
 
-    <!-- Content -->
+    <!-- Sidebar -->
+    <!-- Sidebar Start -->
+    <div class="sidebar">
+        <!-- Sidebar içeriği burada -->
+        <i class="bi bi-search" id="search-btn" title="Arama"></i>
+        <i class="bi bi-house-door-fill" title="Ana Sayfa"></i>
+        <i class="bi bi-people-fill" title="Kullanıcılar"></i>
+        <i class="bi bi-bookmarks-fill" title="Yer İşaretleri"></i>
+        <i class="bi bi-hourglass-top" title="Bekleyenler"></i>
+        <i class="bi bi-cart-fill" title="Alışveriş Sepeti"></i>
+        <i class="bi bi-gear-fill" title="Ayarlar"></i>
+    </div>
+    <!-- İçerik -->
+    <!-- Sidebar End -->
+    <!-- Content Start -->
     <div class="content-wrapper">
+        <!-- Öne çıkan içerik -->
+        <div class="featured-content">
+            <!-- Öne çıkan içerik burada -->
+            <img src="indir (2).jpg" alt="Featured Image" class="featured-title">
+            <p class="featured-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem distinctio quasi iusto amet ad sit quis quidem quod nobis autem molestiae.</p>
+            <div>
+                <button class="watch-btn">Oynat <i class="bi bi-play-circle"></i></button>
+                <button class="info-btn">Daha Fazla Bilgi <i class="bi bi-info-circle"></i></button>
+            </div>
+        </div>
+
         <!-- Film Kartları -->
         <div class="film-container">
             <!-- İlk Video Kartı -->
             <div class="film-card">
-                <video src="Venom 3 Son Dans Film izle (2024).mp4" controls class="film-video"></video>
-                <h3>Venom 3: Son Dans</h3>
+                <img src="venom_4266783b.jpg" alt="">
+                <video src="Venom 3 Son Dans Film izle (2024).mp4" class="film-video" controls></video>
+                <img src="OIP (1).jpg" alt="Film 1 - Title" class="film-image">
+                <h3>Film 1</h3>
+                <p>Film 1 açıklaması burada.</p>
+                <p>Kısa açıklama burada.</p>
+                <button class="watch-btn">Oynat</button>
+                <button class="info-btn">Daha Fazla Bilgi</button>
             </div>
             <!-- İkinci Video Kartı -->
             <div class="film-card">
-                <video src="video2.mp4" controls class="film-video"></video>
+                <img src="indir (2).jpg" alt="">
+                <video src="" class="film-video" controls></video>
+                <img src="R (1).jpg" alt="Film 2 - Title" class="film-image">
                 <h3>Film 2</h3>
+                <p>Film 2 açıklaması burada.</p>
+                <p>Kısa açıklama burada.</p>
+                <button class="watch-btn">Oynat</button>
+                <button class="info-btn">Daha Fazla Bilgi</button>
             </div>
             <!-- Üçüncü Video Kartı -->
             <div class="film-card">
-                <video src="video3.mp4" controls class="film-video"></video>
+                <video src="video3.mp4" class="film-video" controls></video>
+                <img src="284eb0e6-3232-44ef-a588-760965b9c2a8.png" alt="Film 3 - Title" class="film-image">
                 <h3>Film 3</h3>
+                <p>Film 3 açıklaması burada.</p>
+                <p>Kısa açıklama burada.</p>
+                <button class="watch-btn">Oynat</button>
+                <button class="info-btn">Daha Fazla Bilgi</button>
             </div>
             <!-- Dördüncü Video Kartı -->
             <div class="film-card">
-                <video src="video4.mp4" controls class="film-video"></video>
+                <video src="video4.mp4" class="film-video" controls></video>
+                <img src="9cqNxx0GxF0bflZmeSMuL5tnGzr.jpg" alt="Film 4 - Title" class="film-image">
                 <h3>Film 4</h3>
+                <p>Film 4 açıklaması burada.</p>
+                <p>Kısa açıklama burada.</p>
+                <button class="watch-btn">Oynat</button>
+                <button class="info-btn">Daha Fazla Bilgi</button>
             </div>
             <!-- Beşinci Video Kartı -->
+            <!-- Yeni Filmler -->
             <div class="film-card">
-                <video src="video5.mp4" controls class="film-video"></video>
+                <video src="video5.mp4" class="film-video" controls></video>
+                <img src="OIP (3).jpg" alt="Film 5 - Title" class="film-image">
                 <h3>Film 5</h3>
+                <p>Film 5 açıklaması burada.</p>
+                <button class="watch-btn">Oynat</button>
+                <button class="info-btn">Daha Fazla Bilgi</button>
             </div>
             <!-- Altıncı Video Kartı -->
             <div class="film-card">
-                <video src="video6.mp4" controls class="film-video"></video>
+                <video src="video6.mp4" class="film-video" controls></video>
+                <img src="armAY3JkCDVZKaV4djNWcUdFndD.jpg" alt="Film 6 - Title" class="film-image">
                 <h3>Film 6</h3>
+                <p>Film 6 açıklaması burada.</p>
+                <button class="watch-btn">Oynat</button>
+                <button class="info-btn">Daha Fazla Bilgi</button>
+            </div>
+            <!-- Yedinci Video Kartı -->
+            <div class="film-card">
+                <video src="video7.mp4" class="film-video" controls></video>
+                <img src="6SVzIUmISk8SiWA6OFcDvuK7jhI.jpg" alt=" " class="film-image">
+                <h3>Film 7</h3>
+                <p>Film 7 açıklaması burada.</p>
+                <button class="watch-btn">Oynat</button>
+                <button class="info-btn">Daha Fazla Bilgi</button>
+            </div>
+            <!-- Sekizinci Video Kartı -->
+            <div class="film-card">
+                <video src="video8.mp4" class="film-video" controls></video>
+                <img src="OIP.jpeg" alt="Film 8 - Title" class="film-image">
+                <h3>Film 8</h3>
+                <p>Film 8 açıklaması burada.</p>
+                <button class="watch-btn">Oynat</button>
+                <button class="info-btn">Daha Fazla Bilgi</button>
+            </div>
+            <!-- Dokuzuncu Video Kartı -->
+            <div class="film-card">
+                <video src="video9.mp4" class="film-video" controls></video>
+                <img src="hePGzjKsUfusCrqN2dKbnZVH3Q2.jpg" alt="Film 9 - Title" class="film-image">
+                <h3>Film 9</h3>
+                <p>Film 9 açıklaması burada.</p>
+                <button class="watch-btn">Oynat</button>
+                <button class="info-btn">Daha Fazla Bilgi</button>
+            </div>
+            <!-- Onuncu Video Kartı -->
+            <div class="film-card">
+                <video src="video10.mp4" class="film-video" controls></video>
+                <img src="OIP (1).jpeg" alt="Film 10 - Title" class="film-image">
+                <h3>Film 10</h3>
+                <p>Film 10 açıklaması burada.</p>
+                <button class="watch-btn">Oynat</button>
+                <button class="info-btn">Daha Fazla Bilgi</button>
+            </div>
+        </div>
+        
+        <!-- Popüler Film Listesi -->
+        <div class="movie-list-container">
+            <h1 class="movie-list-title">Popüler</h1>
+            <div class="movie-list-wrapper">
+                <ul class="movie-list">
+                    <li class="movie menu-list-item">
+                        <img src="OIP (1).jpg" alt="Popüler Film 1" class="popular-film-image">
+                    </li>
+                    <li class="movie menu-list-item">
+                        <img src="284eb0e6-3232-44ef-a588-760965b9c2a8.png" alt="Popüler Film 2" class="popular-film-image">
+                    </li>
+                    <li class="movie menu-list-item">
+                        <img src="OIP (1).jpg" alt="Popüler Film 3" class="popular-film-image">
+                    </li>
+                    <li class="movie menu-list-item">
+                        <img src="OIP (1).jpg" alt="Popüler Film 4" class="popular-film-image">
+                    </li>
+                </ul>
             </div>
         </div>
     </div>
+    <!-- Content End -->
 
+    <script>
+        // Arama butonuna tıklanıldığında bir uyarı göster
+        document.getElementById('search-btn').addEventListener('click', function() {
+            const searchTerm = prompt('Aramak istediğiniz terimi girin:');
+            if
+            <!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Yükleme</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Video Yükleme Uygulaması</h1>
+    <input type="file" id="videoUpload" accept="video/*">
+    <video id="videoPlayer" width="600" controls></video>
     <script src="script.js"></script>
+    <a href="https://instagram.com">İnstagram</a>
 </body>
 </html>
-
